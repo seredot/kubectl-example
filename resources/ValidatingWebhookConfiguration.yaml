@@ -1,0 +1,21 @@
+---
+apiVersion: admissionregistration.k8s.io/v1
+kind: ValidatingWebhookConfiguration
+metadata:
+  name: 'pod-policy.example.com'
+webhooks:
+  - name: 'pod-policy.example.com'
+    rules:
+      - apiGroups: ['']
+        apiVersions: ['v1']
+        operations: ['CREATE']
+        resources: ['pods']
+        scope: 'Namespaced'
+    clientConfig:
+      service:
+        namespace: 'example-namespace'
+        name: 'example-service'
+      caBundle: "Ci0tLS0tQk...<`caBundle` is a PEM encoded CA bundle which will be used to validate the webhook's server certificate.>...tLS0K"
+    admissionReviewVersions: ['v1', 'v1beta1']
+    sideEffects: None
+    timeoutSeconds: 5
