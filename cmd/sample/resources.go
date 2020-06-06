@@ -36,7 +36,7 @@ func resourceList() [][]string {
 			{"deployments", "deploy", "Deployment"},                                  // Done
 			{"replicasets", "rs", "ReplicaSet"},                                      // Done
 			{"statefulsets", "sts", "StatefulSet"},                                   // Done NOTE double yaml
-			{"tokenreviews", "TokenReview"},                                          // WON'T DO  used between services
+			{"tokenreviews", "TokenReview"},                                          // WON'T DO used between services
 			{"localsubjectaccessreviews", "LocalSubjectAccessReview"},                // WON'T DO use kubectl auth can-i instead
 			{"selfsubjectaccessreviews", "SelfSubjectAccessReview"},                  // WON'T DO use kubectl auth can-i instead
 			{"selfsubjectrulesreviews", "SelfSubjectRulesReview"},                    // WON'T DO use kubectl auth can-i instead
