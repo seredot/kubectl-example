@@ -26,10 +26,10 @@ func resourceList() [][]string {
 			{"resourcequotas", "quota", "ResourceQuota"},                             // Done NOTE example is a list of resources
 			{"secrets", "Secret"},                                                    // Done
 			{"serviceaccounts", "sa", "ServiceAccount"},                              // Done
-			{"services", "svc", "Service"},                                           // Done
-			{"mutatingwebhookconfigurations", "MutatingWebhookConfiguration"},        // TODO check if it could be improved
-			{"validatingwebhookconfigurations", "ValidatingWebhookConfiguration"},    // TODO check if it could be improved
-			{"customresourcedefinitions", "crd", "crds", "CustomResourceDefinition"}, // TODO check if it could be improved
+			{"services", "svc", "Service"},                                           // Done NOTE check if it could be improved
+			{"mutatingwebhookconfigurations", "MutatingWebhookConfiguration"},        // Done NOTE check if it could be improved
+			{"validatingwebhookconfigurations", "ValidatingWebhookConfiguration"},    // Done NOTE check if it could be improved
+			{"customresourcedefinitions", "crd", "crds", "CustomResourceDefinition"}, // Done NOTE check if it could be improved
 			{"apiservices", "APIService"},                                            // TODO no example available
 			{"controllerrevisions", "ControllerRevision"},                            // TODO no example available
 			{"daemonsets", "ds", "DaemonSet"},                                        // Done
@@ -50,7 +50,7 @@ func resourceList() [][]string {
 			{"events", "ev", "Event"},                                                // TODO no example available
 			{"ingresses", "ing", "Ingress"},                                          // TODO extensions api group
 			{"ingressclasses", "IngressClass"},                                       // Done
-			{"ingresses", "ing", "Ingress"},                                          // Done // networking.k8s.io api group
+			{"ingresses", "ing", "Ingress"},                                          // Done networking.k8s.io api group
 			{"networkpolicies", "netpol", "NetworkPolicy"},                           // Done
 			{"runtimeclasses", "RuntimeClass"},                                       // Done
 			{"poddisruptionbudgets", "pdb", "PodDisruptionBudget"},                   // Done
