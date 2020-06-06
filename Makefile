@@ -6,9 +6,9 @@ build:
 run: build
 	./sample po
 
-docker-build:
+build-docker:
 	docker build -t sample .
 
-docker-run:
+run-docker:
 	docker run --rm -i -t sample pods
 	
