@@ -1,4 +1,4 @@
-# k8s-resource-sample
+# Kubernetes resource sample plugin
 
 `kubectl` plugin for retrieving resource sample YAMLs.
 
