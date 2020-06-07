@@ -9,3 +9,5 @@
 - docker hub
 - krew
 - what else?
+
+### Notes
