@@ -4,11 +4,11 @@ build:
 	go build ./...
 
 run: build
-	./sample po
+	./kubectl-sample po
 
 build-docker:
-	docker build -t sample .
+	docker build -t kubectl-sample .
 
 run-docker:
-	docker run --rm -i -t sample pods
+	docker run --rm -i -t kubectl-sample pods
 	

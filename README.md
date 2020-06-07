@@ -8,5 +8,5 @@ All samples originate from kubernetes.io.
 
 ```
 make build-docker
-docker run --rm -i -t sample deploy
+docker run --rm -i -t kubectl-sample deploy
 ```
