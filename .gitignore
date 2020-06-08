@@ -1,1 +1,3 @@
 /kubectl-sample
+/dist/
+.DS_Store
