@@ -12,3 +12,8 @@ build-docker:
 run-docker:
 	docker run --rm -i -t kubectl-sample pods
 	
+release:
+	goreleaser release --rm-dist
+
+snapshot:
+	goreleaser release --snapshot --rm-dist
