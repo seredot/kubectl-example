@@ -1,5 +1,8 @@
 default: build
 
+test:
+	tests/validate-resources.sh
+
 build:
 	go build ./...
 
