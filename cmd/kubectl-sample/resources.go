@@ -29,7 +29,7 @@ func resourceList() [][]string {
 			{"services", "svc", "Service"},                                           // Done NOTE check if it could be improved
 			{"mutatingwebhookconfigurations", "MutatingWebhookConfiguration"},        // Done NOTE check if it could be improved
 			{"validatingwebhookconfigurations", "ValidatingWebhookConfiguration"},    // Done NOTE check if it could be improved
-			{"customresourcedefinitions", "crd", "crds", "CustomResourceDefinition"}, // Done NOTE check if it could be improved
+			{"customresourcedefinitions", "crd", "crds", "CustomResourceDefinition"}, // WON'T DO various
 			{"apiservices", "APIService"},                                            // WON'T DO no example available
 			{"controllerrevisions", "ControllerRevision"},                            // WON'T DO no example available
 			{"daemonsets", "ds", "DaemonSet"},                                        // Done
