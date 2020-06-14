@@ -37,6 +37,11 @@ spec:
           ports:
             - containerPort: 80
 ```
+
+#### Or download precompiled binaries
+
+Github releases [link](https://github.com/seredot/kubectl-sample/releases).
+
 #### Installing as a `kubectl` plugin
 
 Simply move the compiled binary into a directory in `PATH`
