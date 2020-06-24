@@ -1,8 +1,8 @@
 # TODOs
 
 ### Tests
-- Validate yaml files
-- CLI output
+- Validate yaml files √
+- CLI output √
 
 ### Publish
 - brew
