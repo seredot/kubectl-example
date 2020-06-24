@@ -7,7 +7,7 @@ before:
     # you may remove this if you don't need go generate
     - go generate ./...
 builds:
-  - main: ./cmd/kubectl-sample
+  - main: ./cmd/kubectl-example
     env:
       - CGO_ENABLED=0
     goos:
@@ -38,4 +38,4 @@ changelog:
 release:
   github:
     owner: seredot
-    name: kubectl-sample
+    name: kubectl-example

@@ -7,13 +7,13 @@ build:
 	go build ./...
 
 run: build
-	./kubectl-sample po
+	./kubectl-example po
 
 build-docker:
-	docker build -t kubectl-sample .
+	docker build -t kubectl-example .
 
 run-docker:
-	docker run --rm -i -t kubectl-sample pods
+	docker run --rm -i -t kubectl-example pods
 	
 release: test
 	goreleaser release --rm-dist

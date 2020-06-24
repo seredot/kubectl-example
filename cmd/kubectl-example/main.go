@@ -11,14 +11,14 @@ func printUsage(failure bool) {
 	if failure {
 		fmt.Println("Not enough arguments")
 	}
-	fmt.Println("Usage: sample <RESOURCE_NAME>")
+	fmt.Println("Usage: example <RESOURCE_NAME>")
 	if failure {
 		os.Exit(1)
 	}
 }
 
 func downloadAndPrintResource(name string) {
-	url := fmt.Sprintf("https://raw.githubusercontent.com/seredot/k8s-resource-sample/master/resources/%s.yaml", name)
+	url := fmt.Sprintf("https://raw.githubusercontent.com/seredot/k8s-resource-example/master/resources/%s.yaml", name)
 	resp, err := http.Get(url)
 	if err != nil {
 		fmt.Printf("Error downloading resource %v: ", err)

@@ -1,8 +1,8 @@
-# Kubernetes resource sample plugin
+# Kubernetes resource example plugin
 
-`kubectl` plugin for retrieving resource sample YAMLs.
+`kubectl` plugin for retrieving resource example YAMLs.
 
-All samples originate from kubernetes.io.
+All examples originate from kubernetes.io.
 
 ### Usage
 
@@ -10,7 +10,7 @@ All samples originate from kubernetes.io.
 
 `make build`
 
-`./kubectl-sample deployment`
+`./kubectl-example deployment`
 
 Output:
 ```
@@ -40,21 +40,21 @@ spec:
 
 #### Or download precompiled binaries
 
-Github releases [link](https://github.com/seredot/kubectl-sample/releases).
+Github releases [link](https://github.com/seredot/kubectl-example/releases).
 
 #### Installing as a `kubectl` plugin
 
 Simply move the compiled binary into a directory in `PATH`
 
-`mv ./kubectl-sample /usr/local/bin`
+`mv ./kubectl-example /usr/local/bin`
 
 and then can be used with `kubectl` as
 
-`kubectl sample pod`
+`kubectl example pod`
 
 
 #### Build and test using Docker
 
 `make build-docker`
 
-`docker run --rm -i -t kubectl-sample deploy`
+`docker run --rm -i -t kubectl-example deploy`
