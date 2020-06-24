@@ -18,7 +18,7 @@ func printUsage(failure bool) {
 }
 
 func downloadAndPrintResource(name string) {
-	url := fmt.Sprintf("https://raw.githubusercontent.com/seredot/k8s-resource-example/master/resources/%s.yaml", name)
+	url := fmt.Sprintf("https://raw.githubusercontent.com/seredot/kubectl-example/master/resources/%s.yaml", name)
 	resp, err := http.Get(url)
 	if err != nil {
 		fmt.Printf("Error downloading resource %v: ", err)
