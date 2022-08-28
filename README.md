@@ -6,7 +6,7 @@ All examples originate from kubernetes.io.
 
 ### Usage
 
-#### Build and test uging Go
+#### Build and test using Go
 
 `make build`
 
