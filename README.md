@@ -1,9 +1,9 @@
-# Kubernetes resource example plugin
-
 ## ⚠️ Repository Archived
 
 This repository is **no longer maintained**.  
 Please use the actively maintained version here: [https://github.com/talos-labs/kubectl-example](https://github.com/talos-labs/kubectl-example)
+
+# Kubernetes resource example plugin
 
 `kubectl` plugin for retrieving resource example YAMLs.
 
