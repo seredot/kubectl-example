@@ -1,5 +1,10 @@
 # Kubernetes resource example plugin
 
+## ⚠️ Repository Archived
+
+This repository is **no longer maintained**.  
+Please use the actively maintained version here: [https://github.com/talos-labs/kubectl-example](https://github.com/talos-labs/kubectl-example)
+
 `kubectl` plugin for retrieving resource example YAMLs.
 
 All examples originate from kubernetes.io.
@@ -13,6 +18,7 @@ All examples originate from kubernetes.io.
 `./kubectl-example deployment`
 
 Output:
+
 ```
 ---
 apiVersion: apps/v1
@@ -51,7 +57,6 @@ Simply move the compiled binary into a directory in `PATH`
 and then can be used with `kubectl` as
 
 `kubectl example pod`
-
 
 #### Build and test using Docker
 
